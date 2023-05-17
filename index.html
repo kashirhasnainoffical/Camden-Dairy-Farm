@@ -9,14 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Dairy Business</title>
+    <title>Camden Dairy Farm</title>
 </head>
 
 <body>
     <nav>
         <div class="logo">
             <div>
-                <h5>SIL'S
+                <h5>Camden
                     <img src="./images/logo.png" alt="">
                     <span>DAIRY</span>
                 </h5>
@@ -25,161 +25,47 @@
     </nav>
     <main>
 
-        <div class="bunner">
+        <div class="bunner" style="display: block;">
             <div class="records">
-                <p>Silikhe’s Dairy Farm</p>
-                <h5>Natural & Organic
-                    Milk</h5>
-                <button id="modal-btn" class="btn">ADD NEW RECORD</button>
-            </div>
-        </div>
-        <div id="pdf" class="table-cont">
-            <div class="tables">
-                <div class="table-buttons">
-                    <button class="right-btn">Total income</button>
-                    <button class="left-btn">Total Production</button>
-                </div>
-                <input type="text" id="myInput" onkeyup="filterFunction()" placeholder="Search for names..">
-                <table id="myTable">
-                    <tr class="header">
-                        <th class="th-style">Month</th>
-                        <th class="th-style">Litres</th>
-                        <th class="th-style">Ksh/Ltr</th>
-                        <th class="th-style">Total</th>
-                    </tr>
-                    <!-- <tr>
-                        <td>January</td>
-                        <td>0</td>
-                        <td class="amo">0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td>February</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr> -->
-                    <tr class="total-tr">
-                        <td></td>
-                        <td>Total Monthly Income</td>
-                        <td></td>
-                        <td id="monthly">0</td>
-                    </tr>
-                    <tr class="total-tr">
-                        <td></td>
-                        <td>Total Yearly Income</td>
-                        <td></td>
-                        <td id="yearly">0</td>
-                    </tr>
-                </table>
-                <table id="myProd">
-                    <tr class="header">
-                        <th class="th-style">Shade</th>
-                        <th class="th-style">Litres</th>
-                        <th class="th-style">Ksh/Ltr</th>
-                        <th class="th-style">Total</th>
-                    </tr>
-                    <tr>
-                        <td>A</td>
-                        <td id="litreA">0</td>
-                        <td class="amountA">0</td>
-                        <td id="total1">0</td>
-                    </tr>
-                    <tr>
-                        <td>B</td>
-                        <td id="litreB">0</td>
-                        <td class="amountB">0</td>
-                        <td id="total2">0</td>
-                    </tr>
-                    <tr>
-                        <td>C</td>
-                        <td id="litreC">0</td>
-                        <td class="amountC">0</td>
-                        <td id="total3">0</td>
-                    </tr>
-                    <tr>
-                        <td>D</td>
-                        <td id="litreD">0</td>
-                        <td class="amountD">0</td>
-                        <td id="total4">0</td>
-                    </tr>
-                    <tr class="total-tr">
-                        <td></td>
-                        <td></td>
-                        <td>Total Income</td>
-                        <td id="total4">0</td>
-                    </tr>
-                </table>
-                <div class="btn-container">
-                    <button onclick="window.print()" class="btn">Generate Report</button>
-                </div>
+                <center><p>Camden Dairy Farm</p></center>
+                <h5>Cheese, Milk, Butter and other Dairy Products
+                    WholeSale </h5>
+                <button id="modal-btn" class="btn">Order Natural Product</button>
+                <button id="modal-btn" class="btn">View Rates and Discount</button>
+                <button id="modal-btn" class="btn">View Recent Orders</button>
+                <button id="modal-btn" class="btn">View Canceled Orders</button>
             </div>
         </div>
         
+      <br>
+      <br>
         <div class="about">
             <div class="about-content">
-                <h5>Milking Land of Milk & Love</h5>
+                <h5>Natural Products</h5>
                 <p>
-                    Dairy producers worldwide face similar challenges around animal welfare, farm profitability, food
-                    safety and work efficiency. Discover how our customers are solving these challenges. Also known as
-                    the land of milk and honey for its rich and vibrant farming tradition.
+                    Camden Highlands is well known for grazing cattle and producing dairy products.The Camden dairy farm sells cheese, milk, butter and other dairy products
                 </p>
             </div>
         </div>
         <div class="author">
             <div class="">
-                <h5>Meet The Farmer</h5>
-                <div class="img">
-                    <img src="./images/me.png" alt="">
-                </div>
-                <h6>Silas Silikhe</h6>
-                <p>Programer</p>
+                <h5>Our Products</h5>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                    <img src="images/cheese-1163161_640.jpg" alt="Cheese">
+                    <img src="images/cheese-3092936_640.png" alt="Image 2">
+                    <img src="images/cheese-platter-6153716_640.jpg" alt="Image 3">
+                    <img src="images/milk.jpg" alt="Image 4">
+                    <img src="images/quark-571703_640.jpg" alt="Image 5">
+                    <img src="images/yogurt-1442034_1280.jpg" alt="Image 6">
+                  </div>
+                  
+               
+                
             </div>
         </div>
-        <div class="modal">
-            <div class="modal-content">
-                <form class="form contact-form" action="">
-                    <h1>Milk Production Details</h1>
-                    <div>
-                        <label class="form-label" for="amount">Amount</label>
-                        <input class="form-control" id="amount" name="amount" value="45" type="text" required />
-                    </div>
-                    <div>
-                        <label class="form-label" for="subject">Year</label>
-                        <select class="form-control" id="subject" name="subject">
-                            <option value="" selected disabled>Choose Leap Year or Normal Year</option>
-                            <optgroup label="Option Group">
-                                <option value="leap">Leap Year</option>
-                                <option value="normal">Normal Year</option>
-                            </optgroup>
-                        </select>
-                    </div>
-                    <div class="form-wrap">
-                        <div>
-                            <label class="form-label" for="ShadeA">Shade A</label>
-                            <input class="form-control form-rt" id="shadeA" name="shadeA" type="text" required />
-                        </div>
-                        <div>
-                            <label class="form-label" for="shadeB">Shade B</label>
-                            <input class="form-control form-lf" id="shadeB" name="shadeB" type="text" required />
-                        </div>
-                    </div>
-                    <div class="form-wrap">
-                        <div>
-                            <label class="form-label" for="ShadeC">Shade C</label>
-                            <input class="form-control form-rt" id="shadeC" name="shadeC" type="text" required />
-                        </div>
-                        <div>
-                            <label class="form-label" for="shadeD">Shade D</label>
-                            <input class="form-control form-lf" id="shadeD" name="shadeD" type="text" required />
-                        </div>
-                    </div>
-                    <div class="btn-report">
-                        <button class="btn " id="btn" style="width: 50%;" type="submit">Add Report</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+       <footer>
+        <center><p>Copyright All Right Reserved @2023</p></center>
+       </footer> 
     </main>
     <script src="main.js"></script>
 </body>

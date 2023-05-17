@@ -57,7 +57,7 @@ nav {
 .bunner {
   background: url(./images/landing.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 60vh;
   padding: 20px;
 }
