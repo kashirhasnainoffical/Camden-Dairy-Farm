@@ -21,8 +21,8 @@
                     <span>DAIRY</span>
                 </h5>
             </div>
-            <button id="login-btn" class="btn">Login</button>
-            <button id="register-btn" class="btn">Register New Account</button>
+            <button id="login-btn" class="btn"><a href='index.php'>Logout</a></button>
+            
         </div>
     </nav>
     <main>
@@ -32,6 +32,7 @@
                 <center>
                     <p>Camden Dairy Farm</p>
                 </center>
+                
                 <h5>Cheese, Milk, Butter and other Dairy Products
                     WholeSale Market </h5>
                 <button id="modal-btn" class="btn">Order Natural Product</button>
