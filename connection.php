@@ -1,13 +1,11 @@
 <?php
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "inventory_system";
 
-$sname= "localhost";
-$unmae= "root";
-$password = "";
-
-$db_name = "inventory_system";
-
-$conn = mysqli_connect($sname, $unmae, $password, $db_name);
+$conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
 if (!$conn) {
-	echo "Connection failed!";
+	die("connection failed : " . mysqli_connect_error());
 }

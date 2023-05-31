@@ -334,6 +334,8 @@ form h1 {
   display: flex;
   justify-content: space-around;
 }
+.products input{width: 170px;
+  display: inline;}
 
 
 /* invoice */
